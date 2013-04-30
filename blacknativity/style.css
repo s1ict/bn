@@ -350,15 +350,17 @@ ul.pager a:hover { background:#4eabd7; }
  * Main menu links
  */
 /* 1st level */
-#navigation ul.menu  { float:right; display:block; padding:0; margin:0; position:relative; z-index:1; width:650px;}
+#navigation ul.menu  { float:right; display:block; padding:0; margin:0; position:relative; z-index:1; width:650px; left:100px;}
 
 #navigation ul.menu li { display: inline-block; float:left; vertical-align: middle; padding:0 5px 0 0; margin:0; }
 
 #navigation ul.menu li.last { padding:0; }
 
-#navigation ul.menu li a { outline:none; padding: 5px 10px; text-decoration: none; display:block; color:#7A8090; font-size:12px; font-weight:bold; text-align:center; }
+#navigation ul.menu li a { outline:none; padding: 5px 10px; text-decoration: none; display:block; color:#115ca5; font-size:13px; font-weight:bold; text-align:center; }
 
-#navigation ul.menu li a:hover, #navigation ul.menu li a.active{ text-decoration:none; color:#ffffff; border-radius: 5px; -moz-border-radius: 5px; background: #0d0f13; }
+/*#navigation ul.menu li a:hover, #navigation ul.menu li a.active{ text-decoration:none; color:#ffffff; border-radius: 5px; -moz-border-radius: 5px; background: #0d0f13; }*/
+
+#navigation ul.menu li a:hover, #navigation ul.menu li a.active{ text-decoration:none; color:#ffffff;}
 
 #navigation ul.menu li a:after { content: none; }
 
