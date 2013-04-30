@@ -138,7 +138,9 @@ min-height:100px; overflow:hidden; clear:both; }
 
 #home-blocks-area .block h2 { height: 36px; font-size:20px; font-weight:bold; color:#ffffff; margin:0; padding:10px 0 0 20px; }
 
-#home-blocks-area .region-home-area-1 .block h2 { background:url(images/icons/man-icon.png) no-repeat 13px 10px; padding:10px 0 0 49px; }
+/*#home-blocks-area .region-home-area-1 .block h2 { background:url(images/icons/man-icon.png) no-repeat 13px 10px; padding:10px 0 0 49px; }*/
+
+#home-blocks-area .region-home-area-1 .block h2 {padding:10px 0 0 99px; }
 
 #home-blocks-area .region-home-area-2 .block h2 { background:url(images/icons/bubble-icon.png) no-repeat 13px 10px; padding:10px 0 0 49px; }
 
@@ -433,7 +435,7 @@ margin: 4px; border:none; outline:none; }
 .desc { width:930px; display: none; position: absolute; bottom: 0; left: 0; z-index: 101; background: url(images/30w087b.png); color: #fff;
 font-size: 1.7em; padding: 10px; border-radius: 0 0 3px 0; -moz-border-radius: 0 0 3px 0; -khtml-border-radius: 0 0 3px 0; -webkit-border-radius: 0 0 3px 0; }
 
-.desc2 {color: #b1b1b1; font-weight: bold; font-size: 13px;} 
+.desc2 {color: #b1b1b1; font-weight: normal; font-size: 13px;} 
 
 #console { border:1px solid #333949; padding:10px; margin:0 0 10px 0; }
 
