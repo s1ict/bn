@@ -23,8 +23,7 @@
         <!--header-top-inside-left-right-->
         <div id="header-top-inside-right"><?php print render($page['search_area']);?></div> 
         <!--EOF:header-top-inside-left-right-->
-         
-    </div>
+	</div>
 </div>
 <!--EOF:header-top-->
     
@@ -69,14 +68,31 @@
         <div class="main_view">
             <div class="window">
                 <div class="image_reel">
-                    <a href="<?php print url('node/3'); ?>"><img src="<?php print base_path() . drupal_get_path('theme', 'bluemasters') . '/images/slide-image-3.jpg'; ?>"></a>
-                    <a href="<?php print url('node/2'); ?>"><img src="<?php print base_path() . drupal_get_path('theme', 'bluemasters') . '/images/slide-image-2.jpg'; ?>"></a>
-                    <a href="<?php print url('node/1'); ?>"><img src="<?php print base_path() . drupal_get_path('theme', 'bluemasters') . '/images/slide-image-1.jpg'; ?>"></a>
+                    <a href="<?php print url('node/3'); ?>"><img src="<?php print base_path() . drupal_get_path('theme', 'blacknativity') . '/images/slide-image-3.jpg'; ?>"></a>
+                    <a href="<?php print url('node/2'); ?>"><img src="<?php print base_path() . drupal_get_path('theme', 'blacknativity') . '/images/slide-image-2.jpg'; ?>"></a>
+                    <a href="<?php print url('node/1'); ?>"><img src="<?php print base_path() . drupal_get_path('theme', 'blacknativity') . '/images/slide-image-1.jpg'; ?>"></a>
                 </div>
                 <div class="descriptions">
-                    <div class="desc" style="display: none;">About Bluemasters</div>
-                    <div class="desc" style="display: none;">Our Portfolio</div>
-                    <div class="desc" style="display: none;">Creation of Beaches</div>
+                    <div class="desc" style="display: none;">Jennifer Hudson
+					 <br/>
+					  <div class="desc2">On brining Langston Hughs to Life Through Song</div>
+					</div>
+                    <div class="desc" style="display: none;">Jennifer Hudson
+					 <br/>
+					  <div class="desc2">On brining Langston Hughs to Life Through Song</div>
+					</div>
+					  <div class="desc" style="display: none;">Jennifer Hudson
+					 <br/>
+					  <div class="desc2">On brining Langston Hughs to Life Through Song</div>
+					</div>
+					   <div class="desc" style="display: none;">Jennifer Hudson
+					 <br/>
+					  <div class="desc2">On brining Langston Hughs to Life Through Song</div>
+					</div>
+					  <div class="desc" style="display: none;">Jennifer Hudson
+					 <br/>
+					  <div class="desc2">On brining Langston Hughs to Life Through Song</div>
+					</div>
                 </div>
             </div>
         
@@ -84,6 +100,8 @@
                 <a rel="1" href="#">1</a>
                 <a rel="2" href="#">2</a>
                 <a rel="3" href="#">3</a>
+				<a rel="3" href="#">4</a>
+				<a rel="3" href="#">5</a>
             </div>
         </div>
     </div><!--EOF:banner-->
