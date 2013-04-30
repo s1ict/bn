@@ -19,8 +19,8 @@ function blacknativity_form_alter(&$form, &$form_state, $form_id) {
   
 
     // Add extra attributes to the text box
-    $form['search_block_form']['#attributes']['onblur'] = "if (this.value == '') {this.value = 'Search';}";
-    $form['search_block_form']['#attributes']['onfocus'] = "if (this.value == 'Search') {this.value = '';}";
+    $form['search_block_form']['#attributes']['onblur'] = "if (this.value == '') {this.value = 'Search Keywords';}";
+    $form['search_block_form']['#attributes']['onfocus'] = "if (this.value == 'Search Keywords') {this.value = '';}";
     // Prevent user from searching the default text
     $form['#attributes']['onsubmit'] = "if(this.search_block_form.value=='Search'){ alert('Please enter a search'); return false; }";
 
